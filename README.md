@@ -79,3 +79,16 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+## Como rodar do projeto na sua máquina
+
+- 1 Instale e configure o postgreSQL
+- 2 Volte a pasta raiz e rode o comando npm i no terminal
+- 3 Quando estiver o postgreSQL aberto e conectado ao banco rode os comandos abaixo estando na pasta backend
+
+```
+ npx prsima migrate dev no terminal
+ npx prisma db seed no terminal
+```
+
+- 4 Volte para a pasta raiz e rode o comando npm run dev no terminal

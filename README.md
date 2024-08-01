@@ -80,7 +80,7 @@ Learn more about the power of Turborepo:
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
 
-## Como rodar do projeto na sua máquina
+## Como rodar o projeto na sua máquina
 
 - 1 Instale e configure o postgreSQL
 - 2 Volte a pasta raiz e rode o comando npm i no terminal
